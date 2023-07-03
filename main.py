@@ -8,7 +8,7 @@ from langchain import OpenAI
 from langchain.chat_models import ChatOpenAI
 import pandas as pd
 from gradio import networking
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your key'
 
 def construct_index(directory_path):
     max_input_size = 4096
